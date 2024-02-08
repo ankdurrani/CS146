@@ -1,0 +1,1 @@
+To sort through the list of versions, binary search seemed to be the fastest way to cut through the list until it found the first bad version. By constantly going to the middle of the list and checking, we can clear the entire left side of the list and move the middle pointer to the right each iteration. 
