@@ -1,0 +1,5 @@
+Problem 1: Insertion Sort
+The best case scenario in insertion sort is if the array is already sorted. If it is already sorted, the algorithm will only make the comparison one time. Thus, in notation the time complexity is O(n).
+The average case scenario for insertion sort is where half of the elements need to be sorted in the array. Thus, in notation the time complexity is O(n^2).
+The worst case scenario for insertion sort is where it has to sort the entire array. This case would be having a reversed array. So, if we wanted (1,2,3,4), the initial array would be (4,3,2,1). Thus, in notation the time complexity is also O(n^2)
+
