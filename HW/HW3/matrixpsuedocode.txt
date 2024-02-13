@@ -1,0 +1,2 @@
+Problem 2:
+In this psuedocode there are 3 loops. In the loops the operations conducted are addition and matrix multiplication. The first loop is run as many times as rows_A and the middle loop is run as many times as cols_B and the last inner loop runs as many times as there are columns and rows in A and B. This amount is linear, so the time complexity of these 3 loops can be described as O(a * b * c) as these 3 loops run off of eachother. 
