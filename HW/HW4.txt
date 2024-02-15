@@ -1,0 +1,9 @@
+Problem 1:
+The best case scenario for Insertion Sort is when the given array is already sorted and has no further use. The algorithm would only iterate through each element once before realizing it is sorted, thus the complexity would be O(n) (n for elements)
+The average case scenario for this algorithm would be quadratic. Some elements will not need to be swapped while others do. Asymptotically this would be O(n^2).
+The worst case scenario is where every single element in the array needs to be sorted, or more simply put, the array is sorted in reverse. More elements would need to be moved than the average case, however it is still a quadratic curve so the complexity is also O(n^2).
+
+Problem 2:
+The best case scenario for this pseudocode would be if matrix A or B satisfied the rules for matrix multiplying. To achieve this, one of them has to have as many columns as the other does have in row count. The number of operations depends on the size, so asymptotically the time complexity is Omega(A * B).
+The average case scenario would be O(rows_A * cols_A * cols_B). This is because it needs to multiply cols_A times and add cols_A - 1 times. Thus, it is dependant on how many times those operations are ran through the algorithm.
+The worst case scenario would be the same asymptotically as the average case, but in the worst case it would just be much more operations needed to be done.
