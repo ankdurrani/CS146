@@ -1,6 +1,10 @@
 import java.util.Arrays;
 import java.util.PriorityQueue;
 public class main {
+solution 
+        Main main = new Main(); 
+        int[][] intervals = {{0, 30}, {5, 10}, {15, 20}};
+        System.out.println(main.minMeetingRooms(intervals));
 public int minMeetingRooms(int[][] intervals) {  // Your code here 
     if (intervals == null || intervals.length == 0) {
         return 0;
@@ -11,7 +15,6 @@ public int minMeetingRooms(int[][] intervals) {  // Your code here
     PriorityQueue<Integer> endTimes = new PriorityQueue<>();
     endTimes.offer(intervals[0][1]);
     
-    // Iterate through the rest of the meetings
     for (int i = 1; i < intervals.length; i++) {
         int[] currentJob = intervals[i];
         int earliestEndTime = endTimes.peek();
