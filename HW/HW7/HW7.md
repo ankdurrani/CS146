@@ -1,0 +1,1 @@
+For this problem, we simply need to count the amount of jobs that overlap. For each overlap, a counter could be added to hold the result. But there are more efficient ways to iterate on this. In python, we can employ a heap to store the number of servers needed. In Java, using the PriorityQueue was the equivalent option. 
