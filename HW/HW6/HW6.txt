@@ -1,1 +1,1 @@
-
+To solve this problem, you must first clean up the array by sorting it. You then iterate through the entire array with a left and right pointer. While iterating, increase the left pointer to avoid counting duplicate entries. 
