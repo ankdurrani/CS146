@@ -5,7 +5,7 @@ The exponent of n3 is greater, thus it is asympotically greater.
 The exponent in n(log(n))10 is greater, thus it would be asymptotically greater.
 3. nlogn vs 2^(root(n))
 The second one has the adbvantage sporting exponential growth, so it is asymptotically greatrer.4
-4.
+4. 2^2n is asymptotically greater as 2n is double 2, and other than that there are no differences, so 2^2n will always be greater.
 
 Problem 2:
 The best case scenario for this isPrime function is intuitive, it would be when the number inserted is prime as it would be quickly computed in one fell swoop. The time complexity would be something constant, or big-O(1).
