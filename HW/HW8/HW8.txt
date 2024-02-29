@@ -1,0 +1,1 @@
+To solve this one, it is a similar approach to the palindrome assignment from the beginning of the semester, albeit more algorithmically involved as now we can make use of a hashmap. It iterates through a given string counting the even frequencies and odd frequencies. 
