@@ -1,1 +1,1 @@
-
+To solve this problem, we can compare the values of root, left, and right. If the root is greater than left and right, the LCA is to the left. If the opposite, the LCA is to the right. If a small tree with one element, then the root would be the LCA itself.
