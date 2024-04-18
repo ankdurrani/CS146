@@ -1,0 +1,1 @@
+To solve this problem, we can use the Floyd-Warshall algorithm to make the necessary comparisons of distances between cities, and then once that is sorted, we can check with the distance threshold given. 
