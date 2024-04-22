@@ -1,1 +1,1 @@
-
+To solve this problem, we can employ several data structures, such as an adjacency matrix. The adjacency matrix calculates the indegrees of the graph and then topologically sorts it employing kahn's algorithm, taking note of the case where a class has zero pre-requesities in the first place. 
