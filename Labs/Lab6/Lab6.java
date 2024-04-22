@@ -37,7 +37,7 @@ public class lab6 {
     public static void main(String[] args) {
         lab6 cs = new lab6();
         int numCourses = 2;
-        int[][] prerequisites = {{1, 0}, {0,1};
+        int[][] prerequisites = {{1, 0}, {0,1}};
         boolean canFinish = cs.canFinish(numCourses, prerequisites);
         System.out.println(canFinish);
     }
